@@ -2,7 +2,7 @@ import './globals.css';
 import SiteChrome from '@/components/SiteChrome';
 
 export const metadata = {
-  metadataBase: new URL('https://more-time-has-passed.davorinkunst-1.workers.dev'),
+  metadataBase: new URL('https://moretimehaspassed.com'),
   title: {
     default: 'More Time Has Passed',
     template: '%s | More Time Has Passed'

@@ -1,7 +1,7 @@
 import { getAllFacts, getCategories, slugifyCategory } from '@/lib/facts';
 
 export default function sitemap() {
-  const base = 'https://https://more-time-has-passed.davorinkunst-1.workers.dev';
+  const base = 'https://moretimehaspassed.com';
   const staticRoutes = ['', '/random', '/about', '/privacy', '/contact'].map((path) => ({
     url: `${base}${path}`,
     lastModified: new Date().toISOString()

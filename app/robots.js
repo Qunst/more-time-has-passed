@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/'
     },
-    sitemap: 'https://https://more-time-has-passed.davorinkunst-1.workers.dev/sitemap.xml'
+    sitemap: 'https://moretimehaspassed.com/sitemap.xml'
   };
 }
