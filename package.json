@@ -1,0 +1,19 @@
+{
+  "name": "more-time-has-passed",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/validate-facts.mjs && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "validate:facts": "node scripts/validate-facts.mjs",
+    "generate:facts": "node scripts/generate-facts.mjs",
+    "refresh:facts": "node scripts/generate-facts.mjs && node scripts/validate-facts.mjs"
+  },
+  "dependencies": {
+    "next": "15.2.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}
