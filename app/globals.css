@@ -212,3 +212,14 @@ h3 { font-size: 1.1rem; }
     flex-direction: column;
   }
 }
+
+.share-block {
+  display: grid;
+  gap: 12px;
+}
+
+.share-title {
+  font-size: 0.95rem;
+  color: var(--muted);
+  font-weight: 600;
+}

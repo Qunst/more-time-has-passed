@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { buildComparison, formatYears, getAllFacts, getFactBySlug, slugifyCategory } from '@/lib/facts';
+import ShareButtons from '@/components/ShareButtons';
 
 export async function generateStaticParams() {
   return getAllFacts().map((fact) => ({ slug: fact.slug }));
@@ -55,9 +56,16 @@ export default async function FactPage({ params }) {
 
           <div className="copy">{fact.description}</div>
 
+          <ShareButtons
+            url={`https://moretimehaspassed.com/facts/${fact.slug}`}
+            text={comparison.sentence}
+          />
+
           <div className="button-row">
-            <Link href={`/category/${slugifyCategory(fact.category)}`} className="button">More in {fact.category}</Link>
-          </div>
+            <Link href={`/category/${slugifyCategory(fact.category)}`} className="button">
+              More in {fact.category}
+            </Link>
+          </div> 
         </article>
 
         <aside className="card grid">
