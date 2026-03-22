@@ -61,10 +61,10 @@ export default async function FactPage({ params }) {
         </article>
 
         <aside className="card grid">
-          <h2>Future commerce hook</h2>
+          <h2>At a glance</h2>
           <p className="copy">
-            This block is where a personalized preview, Etsy call-to-action, or milestone generator can sit later.
-            Keep the fact page useful on its own, then layer commerce under it.
+            This comparison is based on the dates shown on this page. Browse the tags below to
+            see what kind of timeline this fact belongs to.
           </p>
           <div className="table-like">
             {fact.tags.map((tag) => (

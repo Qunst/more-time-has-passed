@@ -14,25 +14,26 @@ export default function HomePage() {
   return (
     <div className="grid">
       <section className="hero">
-        <div className="eyebrow">Funny time comparisons with room to become a product business</div>
-        <h1>Launch the site. Grow the archive. Add personalized merch later.</h1>
+        <div className="eyebrow">Funny time comparisons from movies, history, tech, music, TV, and the internet</div>
+        <h1>Some things feel recent until you compare the years.</h1>
         <p className="lead">
-          This starter project is designed for SEO, scheduled content updates, and a future Etsy funnel for birthday,
-          anniversary, and milestone gifts.
+          More Time Has Passed is a collection of surprising timeline comparisons that show
+          how far away cultural moments really are. Browse strange facts, explore categories,
+          and find out which events feel much older, or newer, than they should.
         </p>
         <div className="button-row">
-          <Link href="/random" className="button primary">See a random fact</Link>
+          <Link href="/random" className="button primary">Show me a random fact</Link>
           <a href="#featured" className="button">Browse featured facts</a>
         </div>
       </section>
 
       <section className="card">
-        <h2>What this starter already assumes</h2>
+        <h2>What you will find here</h2>
         <div className="table-like section-gap">
-          <div className="row"><span>Traffic model</span><strong>SEO + social + internal browsing</strong></div>
-          <div className="row"><span>Content model</span><strong>Static pages generated from structured fact data</strong></div>
-          <div className="row"><span>Commerce model</span><strong>Future personalized product funnel into Etsy</strong></div>
-          <div className="row"><span>Automation model</span><strong>Scheduled GitHub workflow to generate and validate facts</strong></div>
+          <div className="row"><span>Topics</span><strong>Movies, TV, music, tech, gaming, history, internet culture</strong></div>
+          <div className="row"><span>Format</span><strong>Simple date comparisons with exact year gaps</strong></div>
+          <div className="row"><span>Best for</span><strong>Browsing, sharing, and saying “wait, that cannot be right”</strong></div>
+          <div className="row"><span>Updates</span><strong>New comparisons added regularly</strong></div>
         </div>
       </section>
 

@@ -17,8 +17,8 @@ export default function SiteChrome({ children }) {
       <main className="main container">{children}</main>
       <footer className="site-footer">
         <div className="container site-footer-inner small">
-          <div>Built to grow from funny comparisons into personalized merch and Etsy-driven commerce.</div>
-          <div>Starter skeleton</div>
+          <div>Surprising time comparisons from movies, TV, music, tech, gaming, history, and internet culture.</div>
+          <div>© More Time Has Passed</div>
         </div>
       </footer>
     </>
