@@ -120,63 +120,99 @@
     "merchEligible": true
   },
   {
-    "slug": "breaking-bad-vs-friends",
-    "category": "TV",
-    "title": "the first episode of Breaking Bad",
-    "titleDate": "2008-01-20",
-    "earlierEvent": "the premiere of Friends",
-    "earlierDate": "1994-09-22",
-    "description": "A TV comparison that makes late-2000s culture feel older than people expect.",
-    "tags": [
-      "tv",
-      "nostalgia",
-      "2000s"
-    ],
-    "sources": [
-      "Breaking Bad premiere date",
-      "Friends premiere date"
-    ],
-    "featured": false,
-    "merchEligible": true
+  "slug": "breaking-bad-vs-friends",
+  "category": "TV",
+  "title": "the first episode of Breaking Bad",
+  "titleDate": "2008-01-20",
+  "earlierEvent": "the premiere of Friends",
+  "earlierDate": "1994-09-22",
+  "description": "A TV comparison that makes late-2000s culture feel older than people expect.",
+  "tags": ["tv", "nostalgia", "2000s"],
+  "sources": [
+    "Breaking Bad premiere date",
+    "Friends premiere date"
+  ],
+  "featured": false,
+  "merchEligible": true
   },
   {
-    "slug": "minecraft-vs-nintendo-64",
-    "category": "Gaming",
-    "title": "Minecraft's first public release",
-    "titleDate": "2009-05-17",
-    "earlierEvent": "the Nintendo 64 launch in Japan",
-    "earlierDate": "1996-06-23",
-    "description": "Auto-added starter example. Replace or expand this generator with your own curated pipeline.",
-    "tags": [
-      "gaming",
-      "2000s",
-      "nostalgia"
-    ],
-    "sources": [
-      "Minecraft public release date",
-      "Nintendo 64 Japan launch date"
-    ],
-    "featured": false,
-    "merchEligible": true
+  "slug": "jurassic-park-vs-star-wars",
+  "category": "Movies",
+  "title": "Jurassic Park",
+  "titleDate": "1993-06-11",
+  "earlierEvent": "the release of the first Star Wars film",
+  "earlierDate": "1977-05-25",
+  "description": "A high-recognition movie comparison with two dates most people instantly understand.",
+  "tags": ["movies", "nostalgia", "1990s"],
+  "sources": [
+    "Jurassic Park release date",
+    "Star Wars original release date"
+  ],
+  "featured": true,
+  "merchEligible": true
   },
   {
-    "slug": "avatar-vs-wikipedia",
-    "category": "Movies",
-    "title": "Avatar",
-    "titleDate": "2009-12-18",
-    "earlierEvent": "Wikipedia's launch",
-    "earlierDate": "2001-01-15",
-    "description": "Auto-added starter example. Use this script as the safe insertion point for scheduled updates.",
-    "tags": [
-      "movies",
-      "internet",
-      "2000s"
-    ],
-    "sources": [
-      "Avatar release date",
-      "Wikipedia launch date"
-    ],
-    "featured": false,
-    "merchEligible": false
+  "slug": "avatar-vs-wikipedia",
+  "category": "Movies",
+  "title": "Avatar",
+  "titleDate": "2009-12-18",
+  "earlierEvent": "Wikipedia's launch",
+  "earlierDate": "2001-01-15",
+  "description": "A strong internet-versus-cinema comparison that feels surprisingly recent.",
+  "tags": ["movies", "internet", "2000s"],
+  "sources": [
+    "Avatar release date",
+    "Wikipedia launch date"
+  ],
+  "featured": false,
+  "merchEligible": false
+  },
+  {
+  "slug": "minecraft-vs-nintendo-64",
+  "category": "Gaming",
+  "title": "Minecraft's first public release",
+  "titleDate": "2009-05-17",
+  "earlierEvent": "the Nintendo 64 launch in Japan",
+  "earlierDate": "1996-06-23",
+  "description": "A gaming comparison that lands well with both millennials and Gen Z.",
+  "tags": ["gaming", "nostalgia", "2000s"],
+  "sources": [
+    "Minecraft first public release date",
+    "Nintendo 64 Japan launch date"
+  ],
+  "featured": false,
+  "merchEligible": true
+  },
+  {
+  "slug": "the-dark-knight-vs-google-founding",
+  "category": "Movies",
+  "title": "The Dark Knight",
+  "titleDate": "2008-07-18",
+  "earlierEvent": "Google being founded",
+  "earlierDate": "1998-09-04",
+  "description": "A strong internet-era comparison that makes a modern blockbuster feel older than expected.",
+  "tags": ["movies", "tech", "2000s"],
+  "sources": [
+    "The Dark Knight release date",
+    "Google founding date"
+  ],
+  "featured": false,
+  "merchEligible": true
+  },
+  {
+  "slug": "the-office-vs-youtube-founding",
+  "category": "TV",
+  "title": "the first episode of The Office (US)",
+  "titleDate": "2005-03-24",
+  "earlierEvent": "YouTube being founded",
+  "earlierDate": "2005-02-14",
+  "description": "A very tight date gap that surprises people because both feel like they belong to different internet eras.",
+  "tags": ["tv", "internet", "2000s"],
+  "sources": [
+    "The Office US premiere date",
+    "YouTube founding date"
+  ],
+  "featured": false,
+  "merchEligible": true
   }
 ]
