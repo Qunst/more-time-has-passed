@@ -3,6 +3,12 @@ import FactSummaryCard from '@/components/FactSummaryCard';
 import CategoryCard from '@/components/CategoryCard';
 import { getAllFacts, getCategories } from '@/lib/facts';
 
+export const metadata = {
+  title: 'More Time Has Passed',
+  description:
+    'Browse surprising time comparisons from movies, TV, music, tech, gaming, history, and internet culture.'
+};
+
 export default function HomePage() {
   const facts = getAllFacts();
   const featured = facts.filter((fact) => fact.featured);

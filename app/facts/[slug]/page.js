@@ -12,9 +12,26 @@ export async function generateMetadata({ params }) {
   const fact = getFactBySlug(slug);
   if (!fact) return {};
 
+  const comparison = buildComparison(fact);
+  const title = `${fact.title} vs ${fact.earlierEvent}`;
+  const description = `${comparison.sentence} See the exact dates and year gap on More Time Has Passed.`;
+  const url = `https://moretimehaspassed.com/facts/${fact.slug}`;
+
   return {
-    title: `${fact.title} vs ${fact.earlierEvent}`,
-    description: `Time comparison between ${fact.title}, ${fact.earlierEvent}, and today.`
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'More Time Has Passed',
+      type: 'article'
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description
+    }
   };
 }
 

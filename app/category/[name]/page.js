@@ -2,6 +2,17 @@ import { notFound } from 'next/navigation';
 import FactSummaryCard from '@/components/FactSummaryCard';
 import { getCategories, getFactsByCategory, slugifyCategory } from '@/lib/facts';
 
+export async function generateMetadata({ params }) {
+  const { name } = await params;
+  const category = getCategories().find((value) => slugifyCategory(value) === name);
+  if (!category) return {};
+
+  return {
+    title: `${category} Facts`,
+    description: `Browse surprising time comparisons in ${category.toLowerCase()} on More Time Has Passed.`
+  };
+}
+
 export async function generateStaticParams() {
   return getCategories().map((category) => ({ name: slugifyCategory(category) }));
 }

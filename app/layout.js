@@ -7,11 +7,30 @@ export const metadata = {
     default: 'More Time Has Passed',
     template: '%s | More Time Has Passed'
   },
-  description: 'Funny timeline comparisons that can later expand into personalized gifts and merchandise.',
+  description:
+    'Surprising time comparisons from movies, TV, music, tech, gaming, history, and internet culture.',
+  keywords: [
+    'time comparisons',
+    'timeline facts',
+    'movie timeline',
+    'history facts',
+    'internet culture',
+    'nostalgia facts'
+  ],
   openGraph: {
     title: 'More Time Has Passed',
-    description: 'Funny timeline comparisons that make people say wait, what?',
+    description:
+      'Surprising time comparisons from movies, TV, music, tech, gaming, history, and internet culture.',
+    url: 'https://moretimehaspassed.com',
+    siteName: 'More Time Has Passed',
+    locale: 'en_US',
     type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'More Time Has Passed',
+    description:
+      'Surprising time comparisons from movies, TV, music, tech, gaming, history, and internet culture.'
   }
 };
 
