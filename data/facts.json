@@ -7,7 +7,11 @@
     "earlierEvent": "the end of World War II",
     "earlierDate": "1945-09-02",
     "description": "A release-date comparison that usually lands instantly with general audiences.",
-    "tags": ["movies", "history", "1980s"],
+    "tags": [
+      "movies",
+      "history",
+      "1980s"
+    ],
     "sources": [
       "Back to the Future theatrical release date",
       "World War II official end date used for comparison"
@@ -23,7 +27,11 @@
     "earlierEvent": "the Apollo 11 Moon landing",
     "earlierDate": "1969-07-20",
     "description": "Good example of a modern classic feeling newer than it really is.",
-    "tags": ["movies", "space", "1990s"],
+    "tags": [
+      "movies",
+      "space",
+      "1990s"
+    ],
     "sources": [
       "The Matrix release date",
       "Apollo 11 Moon landing date"
@@ -39,7 +47,11 @@
     "earlierEvent": "the fall of the Berlin Wall",
     "earlierDate": "1989-11-09",
     "description": "Useful for tech audiences because both dates are memorable landmarks.",
-    "tags": ["tech", "history", "2000s"],
+    "tags": [
+      "tech",
+      "history",
+      "2000s"
+    ],
     "sources": [
       "First iPhone announcement date",
       "Fall of the Berlin Wall date"
@@ -55,7 +67,11 @@
     "earlierEvent": "the first website going live",
     "earlierDate": "1991-08-06",
     "description": "Short, funny, and easy to share as a screenshot.",
-    "tags": ["internet", "movies", "2000s"],
+    "tags": [
+      "internet",
+      "movies",
+      "2000s"
+    ],
     "sources": [
       "Shrek release date",
       "First website launch date"
@@ -71,7 +87,11 @@
     "earlierEvent": "September 11, 2001",
     "earlierDate": "2001-09-11",
     "description": "Strong pop-culture hook with precise dates.",
-    "tags": ["music", "2000s", "culture"],
+    "tags": [
+      "music",
+      "2000s",
+      "culture"
+    ],
     "sources": [
       "Taylor Swift debut album release date",
       "September 11, 2001 date"
@@ -87,7 +107,11 @@
     "earlierEvent": "YouTube's launch",
     "earlierDate": "2005-02-14",
     "description": "A quick tech-era comparison that works well for category pages.",
-    "tags": ["tech", "music", "internet"],
+    "tags": [
+      "tech",
+      "music",
+      "internet"
+    ],
     "sources": [
       "Spotify public launch date",
       "YouTube launch date"
@@ -96,19 +120,63 @@
     "merchEligible": true
   },
   {
-  "slug": "breaking-bad-vs-friends",
-  "category": "TV",
-  "title": "the first episode of Breaking Bad",
-  "titleDate": "2008-01-20",
-  "earlierEvent": "the premiere of Friends",
-  "earlierDate": "1994-09-22",
-  "description": "A TV comparison that makes late-2000s culture feel older than people expect.",
-  "tags": ["tv", "nostalgia", "2000s"],
-  "sources": [
-    "Breaking Bad premiere date",
-    "Friends premiere date"
-  ],
-  "featured": false,
-  "merchEligible": true
+    "slug": "breaking-bad-vs-friends",
+    "category": "TV",
+    "title": "the first episode of Breaking Bad",
+    "titleDate": "2008-01-20",
+    "earlierEvent": "the premiere of Friends",
+    "earlierDate": "1994-09-22",
+    "description": "A TV comparison that makes late-2000s culture feel older than people expect.",
+    "tags": [
+      "tv",
+      "nostalgia",
+      "2000s"
+    ],
+    "sources": [
+      "Breaking Bad premiere date",
+      "Friends premiere date"
+    ],
+    "featured": false,
+    "merchEligible": true
+  },
+  {
+    "slug": "minecraft-vs-nintendo-64",
+    "category": "Gaming",
+    "title": "Minecraft's first public release",
+    "titleDate": "2009-05-17",
+    "earlierEvent": "the Nintendo 64 launch in Japan",
+    "earlierDate": "1996-06-23",
+    "description": "Auto-added starter example. Replace or expand this generator with your own curated pipeline.",
+    "tags": [
+      "gaming",
+      "2000s",
+      "nostalgia"
+    ],
+    "sources": [
+      "Minecraft public release date",
+      "Nintendo 64 Japan launch date"
+    ],
+    "featured": false,
+    "merchEligible": true
+  },
+  {
+    "slug": "avatar-vs-wikipedia",
+    "category": "Movies",
+    "title": "Avatar",
+    "titleDate": "2009-12-18",
+    "earlierEvent": "Wikipedia's launch",
+    "earlierDate": "2001-01-15",
+    "description": "Auto-added starter example. Use this script as the safe insertion point for scheduled updates.",
+    "tags": [
+      "movies",
+      "internet",
+      "2000s"
+    ],
+    "sources": [
+      "Avatar release date",
+      "Wikipedia launch date"
+    ],
+    "featured": false,
+    "merchEligible": false
   }
 ]
