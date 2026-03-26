@@ -56,8 +56,8 @@ export default async function FactPage({ params }) {
     <div className="grid">
       <section className="hero">
         <div className="eyebrow">{fact.category}</div>
-        <h1>{fact.title}</h1>
-        <p className="lead">{comparison.sentence}</p>
+        <h1 className="fact-sentence">{comparison.sentence}</h1>
+        <p className="lead">{fact.description}</p>
       </section>
 
       <section className="grid grid-2">
@@ -77,10 +77,9 @@ export default async function FactPage({ params }) {
             <div className="row"><span>Main item date</span><strong>{fact.titleDate}</strong></div>
             <div className="row"><span>Earlier event date</span><strong>{fact.earlierDate}</strong></div>
             <div className="row"><span>Difference between the two gaps</span><strong>{formatYears(comparison.difference)}</strong></div>
-            <div className="row"><span>Merch eligible</span><strong>{fact.merchEligible ? 'Yes' : 'No'}</strong></div>
+            
           </div>
 
-          <div className="copy">{fact.description}</div>
 
           <ShareButtons
             url={`https://moretimehaspassed.com/facts/${fact.slug}`}
@@ -94,16 +93,15 @@ export default async function FactPage({ params }) {
           </div> 
         </article>
 
-        <aside className="card grid">
+        <aside className="card grid glance-card">
           <h2>At a glance</h2>
-          <p className="copy">
-            This comparison is based on the dates shown on this page. Browse the tags below to
-            see what kind of timeline this fact belongs to.
-          </p>
-          <div className="table-like">
-            {fact.tags.map((tag) => (
-              <div className="row" key={tag}><span>Tag</span><strong>{tag}</strong></div>
-            ))}
+        
+          <div className="button-row">
+            {fact.tags
+              .filter((tag) => tag.toLowerCase() !== fact.category.toLowerCase())
+              .map((tag) => (
+                <div className="pill" key={tag}>{tag}</div>
+              ))}
           </div>
         </aside>
       </section>
