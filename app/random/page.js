@@ -14,7 +14,7 @@ export default function RandomPage() {
     <section className="grid">
       <div className="eyebrow">Random pick</div>
       <div className="card">
-        <div className="fact-sentence">{comparison.sentence}</div>
+        <div className="random-fact-title">{comparison.sentence}</div>
         <div className="metrics section-gap">
           <div className="metric">
             <div className="metric-label">Today → {fact.title}</div>

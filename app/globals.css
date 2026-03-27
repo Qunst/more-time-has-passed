@@ -87,6 +87,19 @@ img { max-width: 100%; }
   white-space: nowrap;
 }
 
+.section-subtitle {
+  margin: -6px 0 16px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.section-subtitle-secondary {
+  margin-top: -4px;
+  margin-bottom: 14px;
+  font-size: 0.9rem;
+}
+
 .eyebrow, .pill {
   display: inline-flex;
   width: fit-content;
@@ -163,8 +176,8 @@ h3 { font-size: 1.1rem; }
 .category-card {
   padding: 12px 14px;
   gap: 4px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.018));
-  border-color: rgba(255,255,255,0.07);
+  background: linear-gradient(180deg, rgba(255,255,255,0.038), rgba(255,255,255,0.016));
+  border-color: rgba(255,255,255,0.065);
 }
 
 .category-card h3 {
@@ -175,6 +188,7 @@ h3 { font-size: 1.1rem; }
 
 .category-card .small {
   font-size: 0.86rem;
+  line-height: 1.35;
 }
 
 .fact-card h3 {
@@ -188,9 +202,16 @@ h3 { font-size: 1.1rem; }
 }
 
 .fact-sentence {
-  font-size: clamp(1.6rem, 3vw, 2.8rem);
+  font-size: clamp(1.55rem, 3vw, 2.8rem);
   line-height: 1.12;
   max-width: 24ch;
+}
+
+.random-fact-title {
+  font-size: clamp(1.9rem, 3.6vw, 3rem);
+  line-height: 1.12;
+  max-width: 22ch;
+  font-weight: 600;
 }
 
 .metrics {
@@ -307,4 +328,41 @@ h3 { font-size: 1.1rem; }
   font-size: 0.95rem;
   color: var(--muted);
   font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .category-card {
+    padding: 10px 12px;
+    gap: 3px;
+  }
+
+  .category-card h3 {
+    font-size: 0.93rem;
+  }
+
+  .category-card .small {
+    font-size: 0.82rem;
+  }
+
+    main {
+    gap: 36px;
+  }
+
+  .hero {
+    gap: 14px;
+  }
+
+  .fact-list {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .glance-card {
+    max-width: 520px;
+  }
 }

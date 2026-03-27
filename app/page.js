@@ -39,14 +39,20 @@ export default function HomePage() {
 
 
       <section id="featured" className="grid section-gap">
-        <h2>Featured facts</h2>
+        <h2>Start with these</h2>
+        <p className="section-subtitle">
+          A few comparisons that usually land instantly.
+        </p>
         <div className="fact-list">
           {featured.map((fact) => <FactSummaryCard key={fact.slug} fact={fact} />)}
         </div>
       </section>
 
       <section className="grid section-gap">
-        <h2 className="subsection-heading">Browse by category</h2>
+      <h2 className="subsection-heading">Browse by category</h2>
+      <p className="section-subtitle section-subtitle-secondary">
+        Explore more comparisons by topic.
+      </p>
         <div className="fact-list">
           {categories.map(({ category, count }) => (
             <CategoryCard key={category} category={category} count={count} />
